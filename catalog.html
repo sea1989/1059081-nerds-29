@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Нёрдс</title>
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <a>
+        <img src="img/index-logo.svg" width="368" height="153" alt="Логотип NERDS">
+      </a>
+      <ul>
+        <li><a href="blank.html">СТУДИЯ</a></li>
+        <li><a href="blank.html">КЛИЕНТЫ</a></li>
+        <li><a href="catalog.html">МАГАЗИН</a></li>
+        <li><a href="blank.html">КОНТАКТЫ</a></li>
+      </ul>
+      <a href="blank.html">КОРЗИНА</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="title">Магазин готовых шаблонов</h1>
+
+    <div class="search-header">
+      <p>СТОИМОСТЬ</p>
+
+      <p>СОРТИРОВАТЬ:</p>
+      <a class="sort-price" href="#">ПО ЦЕНЕ</a>
+      <a class="sort-type" href="#">ПО ТИПУ</a>
+      <a class="sort-function" href="#">ПО НАЗВАНИЮ</a>
+
+    </div>
+
+    <div class="middle">
+
+      <section class="column">
+        <div class="filter-range">
+          <div class="filter-range-title">ЦЕНА:</div>
+
+          <div class="range-controls">
+            <div class="scale">
+              <div class="bar"></div>
+            </div>
+            <div class="range-toggle range-toggle-min"></div>
+            <div class="range-toggle range-toggle-max"></div>
+          </div>
+
+          <div class="price-controls">
+            <label class="min-price"><input type="text" name="min-price" value="0" /></label>
+            <label class="max-price"><input type="text" name="max-price" value="30000" /></label>
+          </div>
+        </div>
+
+        <form class="filter-left" method="get" action="https://echo.htmlacademy.ru">
+          <fieldset class="filter-model">
+            <legend>СЕТКА:</legend>
+            <ul class="catalog-list-model">
+              <li>
+                <input class="visually-hidden" type="checkbox" name="BOSH" checked id="filter-bosh" />
+
+                <img class="slider-radio" id="checkbox-1" src="img/checkbox-off.svg" width="23" height="23"
+                  alt="пусто" />
+
+                <img class="slide slider-radio" id="checkbox-2" src="img/checkbox-on.svg" width="27" height="23"
+                  alt="отмечено" />
+
+                <label for="filter-bosh">Адаптивная</label>
+              </li>
+
+              <li>
+                <input class="visually-hidden" type="checkbox" name="ИНТЕРСКОЛ" id="filter-interskol" />
+
+                <img class="slider-radio" id="checkbox-interskol1" src="img/checkbox-off.svg" width="23" height="23"
+                  alt="пусто" />
+
+                <img class="slide slider-radio" id="checkbox-interskol2" src="img/checkbox-on.svg" width="27"
+                  height="23" alt="отмечено" />
+
+                <label for="filter-interskol"> Фиксированная</label>
+              </li>
+
+              <li>
+                <input class="visually-hidden" type="checkbox" name="MAKITA" checked id="filter-makita" />
+
+                <img class="slider-radio" id="checkbox-makita1" src="img/checkbox-off.svg" width="23" height="23"
+                  alt="пусто" />
+
+                <img class="slide slider-radio" id="checkbox-makita2" src="img/checkbox-on.svg" width="27" height="23"
+                  alt="отмечено" />
+
+                <label for="filter-makita">Резиновая </label>
+              </li>
+
+            </ul>
+          </fieldset>
+
+          <fieldset class="energy">
+            <legend>Особенности:</legend>
+
+            <ul class="catalog-list-model">
+              <li>
+                <input class="visually-hidden" type="radio" id="battery" name="product-group" value="battery" checked />
+
+                <img class="slider-radio" id="radio-1" src="img/radio-off.svg" width="25" height="25" alt="пусто" />
+
+                <img class="slide slider-radio" id="radio-2" src="img/radio-on.svg" width="25" height="25"
+                  alt="отмечено" />
+
+                <label for="battery">Слайдер</label>
+              </li>
+
+              <li>
+                <input class="visually-hidden" type="radio" id="power" name="product-group" value="power" />
+
+                <img class="slider-radio" id="radio-power1" src="img/radio-off.svg" width="25" height="25"
+                  alt="пусто" />
+
+                <img class="slide slider-radio" id="radio-power2" src="img/radio-on.svg" width="25" height="25"
+                  alt="отмечено" />
+
+                <label for="power"> Блок преимуществ </label>
+              </li>
+
+              <li>
+                <input class="visually-hidden" type="radio" id="power" name="product-group" value="power" />
+
+                <img class="slider-radio" id="radio-power1" src="img/radio-off.svg" width="25" height="25"
+                  alt="пусто" />
+
+                <img class="slide slider-radio" id="radio-power2" src="img/radio-on.svg" width="25" height="25"
+                  alt="отмечено" />
+
+                <label for="power"> Новости </label>
+              </li>
+
+              <li>
+                <input class="visually-hidden" type="radio" id="power" name="product-group" value="power" />
+
+                <img class="slider-radio" id="radio-power1" src="img/radio-off.svg" width="25" height="25"
+                  alt="пусто" />
+
+                <img class="slide slider-radio" id="radio-power2" src="img/radio-on.svg" width="25" height="25"
+                  alt="отмечено" />
+
+                <label for="power"> Новости </label>
+              </li>
+
+              <li>
+                <input class="visually-hidden" type="radio" id="power" name="product-group" value="power" />
+
+                <img class="slider-radio" id="radio-power1" src="img/radio-off.svg" width="25" height="25"
+                  alt="пусто" />
+
+                <img class="slide slider-radio" id="radio-power2" src="img/radio-on.svg" width="25" height="25"
+                  alt="отмечено" />
+
+                <label for="power"> Галерея </label>
+              </li>
+
+              <li>
+                <input class="visually-hidden" type="radio" id="power" name="product-group" value="power" />
+
+                <img class="slider-radio" id="radio-power1" src="img/radio-off.svg" width="25" height="25"
+                  alt="пусто" />
+
+                <img class="slide slider-radio" id="radio-power2" src="img/radio-on.svg" width="25" height="25"
+                  alt="отмечено" />
+
+                <label for="power"> Корзина </label>
+              </li>
+
+            </ul>
+          </fieldset>
+
+          <button type="submit">
+            Показать
+          </button>
+        </form>
+      </section>
+
+      <section class="catalog">
+        <ul class="catalog-list">
+          <li class="catalog-item">
+            <div class="actions">
+              <a href="#" class="buy">Pink</a>
+              <a href="#" class="bookmark">Продуктовый лендинг приложения для iOS и Android</a>
+              <a href="#" class="price">9 900 Р</a>
+            </div>
+            <a href="catalog-item.html">
+              <div class="catalog-item-image">
+                <img src="img/item-1.jpg" width="210" height="160" alt="Перфоратор BOSCH BFG 3000" />
+              </div>
+            </a>
+          </li>
+
+          <li class="catalog-item">
+            <div class="actions">
+              <a href="#" class="buy">Pink</a>
+              <a href="#" class="bookmark">Продуктовый лендинг приложения для iOS и Android</a>
+              <a href="#" class="price">9 900 Р</a>
+            </div>
+            <a href="catalog-item.html">
+              <div class="catalog-item-image">
+                <img src="img/item-1.jpg" width="210" height="160" alt="Перфоратор BOSCH BFG 3000" />
+              </div>
+            </a>
+          </li>
+
+          <li class="catalog-item">
+            <div class="actions">
+              <a href="#" class="buy">Pink</a>
+              <a href="#" class="bookmark">Продуктовый лендинг приложения для iOS и Android</a>
+              <a href="#" class="price">9 900 Р</a>
+            </div>
+            <a href="catalog-item.html">
+              <div class="catalog-item-image">
+                <img src="img/item-1.jpg" width="210" height="160" alt="Перфоратор BOSCH BFG 3000" />
+              </div>
+            </a>
+          </li>
+
+          <li class="catalog-item">
+            <div class="actions">
+              <a href="#" class="buy">Pink</a>
+              <a href="#" class="bookmark">Продуктовый лендинг приложения для iOS и Android</a>
+              <a href="#" class="price">9 900 Р</a>
+            </div>
+            <a href="catalog-item.html">
+              <div class="catalog-item-image">
+                <img src="img/item-1.jpg" width="210" height="160" alt="Перфоратор BOSCH BFG 3000" />
+              </div>
+            </a>
+          </li>
+
+          <li class="catalog-item">
+            <div class="actions">
+              <a href="#" class="buy">Pink</a>
+              <a href="#" class="bookmark">Продуктовый лендинг приложения для iOS и Android</a>
+              <a href="#" class="price">9 900 Р</a>
+            </div>
+            <a href="catalog-item.html">
+              <div class="catalog-item-image">
+                <img src="img/item-1.jpg" width="210" height="160" alt="Перфоратор BOSCH BFG 3000" />
+              </div>
+            </a>
+          </li>
+
+          <li class="catalog-item">
+            <div class="actions">
+              <a href="#" class="buy">Pink</a>
+              <a href="#" class="bookmark">Продуктовый лендинг приложения для iOS и Android</a>
+              <a href="#" class="price">9 900 Р</a>
+            </div>
+            <a href="catalog-item.html">
+              <div class="catalog-item-image">
+                <img src="img/item-1.jpg" width="210" height="160" alt="Перфоратор BOSCH BFG 3000" />
+              </div>
+            </a>
+          </li>
+
+        </ul>
+
+      </section>
+
+      <ul class="pagination-list">
+        <li class="pagination-item pagination-item-current"><a>1</a></li>
+        <li class="pagination-item"><a href="#">2</a></li>
+        <li class="pagination-item"><a href="#">3</a></li>
+        <li class="pagination-item"><a href="#">СЛЕДУЮЩАЯ</a></li>
+      </ul>
+
+    </div>
+
+  </main>
+  <footer>
+    <section class="map">
+
+
+    </section>
+
+    <section>
+      <h2>Соц сети</h2>
+      <ul>
+        <li>
+          <a href="#">Вконтакте</a>
+        </li>
+        <li>
+          <a href="#">Фейсбук</a>
+        </li>
+        <li>
+          <a href="#">Инстаграм</a>
+        </li>
+      </ul>
+    </section>
+
+    <p>
+      Давайте дружить, это выгодно!
+    </p>
+    <p>
+      Скидка 10% для друзей из социальных сетей.
+    </p>
+
+  </footer>
+
+
+</body>
+
+</html>
